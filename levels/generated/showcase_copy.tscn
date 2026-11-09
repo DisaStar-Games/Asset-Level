@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/glb/WaterTank.glb" id="1_f7mea"]
+[ext_resource type="PackedScene" path="res://assets/glb/firehydrant (2).glb" id="2_ep11j"]
+
+[node name="AssetShowcase" type="Node3D" unique_id=88202803]
+
+[node name="WaterTank" type="Node3D" parent="." unique_id=1989344076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2131355, 0, 0)
+
+[node name="WaterTank" type="Node3D" parent="WaterTank" unique_id=1768346306 instance=ExtResource("1_f7mea")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9471855e-05, 0.2126621, -0.011124313)
+
+[node name="firehydrant (2)" type="Node3D" parent="." unique_id=702992437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2131355, 0, 0)
+
+[node name="firehydrant (2)" type="Node3D" parent="firehydrant (2)" unique_id=1772800251 instance=ExtResource("2_ep11j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33869588, 0.027050734, 0)
